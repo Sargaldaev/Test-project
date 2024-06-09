@@ -12,7 +12,7 @@ const App = () => {
       <SearchUserForm/>
 
       {
-        fetchLoad ? ( <p style={{marginLeft: '100px'}}>
+        fetchLoad ? ( <p style={{width:'10px',margin: '0 auto'}}>
          < CircularProgress />
         </p>
         ) :
